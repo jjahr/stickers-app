@@ -1,0 +1,1 @@
+Use this folder for PHP or "grunt processhtml" includes.

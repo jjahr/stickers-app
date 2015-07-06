@@ -1,0 +1,51 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="js/modernizr.min.js"></script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>Stickers App</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="panel page1">
+          <h3>Upload Image</h3>
+          <input type='file' class="upload"/>
+          <img src="" alt="" class="upload">
+        </div>
+        <div class="panel page2">
+          <ul class="small-block-grid-4 stickers">
+            <li><img src="img/stickers/1.png" alt=""></li>
+            <li><img src="img/stickers/2.png" alt=""></li>
+            <li><img src="img/stickers/3.png" alt=""></li>
+            <li><img src="img/stickers/4.png" alt=""></li>
+          </ul>
+          <ul class="button-group even-4 toolbar">
+            <li><a href="" class="delete button">Delete Sticker</a></li>
+            <li><a href="" class="delete-all button">Delete All</a></li>
+            <li><a href="" class="start-over button">Start Over</a></li>
+            <li><a href="" class="save button alert">Save</a></li>
+          </ul>
+          <canvas id="canvas"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/app.min.js"></script>
+
+  	<!-- build:remove:dist -->
+  	<!-- Livereload.js auto-refreshes the page during development. -->
+  	<!-- This will be removed for grunt dist -->
+  	<script src="//localhost:1337/livereload.js"></script>
+  	<!-- /build -->
+
+  </body>
+</html>

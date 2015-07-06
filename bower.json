@@ -1,0 +1,24 @@
+{
+  "name": "webapp-template",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation"
+  },
+  "version": "0.0.0",
+  "authors": [
+    "Jonathan Jahr <jjahr@meringcarson.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "shadowbox": "mjackson/shadowbox#~3.0.3",
+    "jquery-waypoints": "imakewebthings/jquery-waypoints#~2.0.5",
+    "fabric.js": "kangax/fabric.js#~1.5.0"
+  }
+}

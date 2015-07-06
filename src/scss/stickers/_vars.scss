@@ -1,0 +1,20 @@
+/* SETTINGS */
+// Assign $local=true to use local fonts instead of pulling fonts from mammoth server.
+// When running page locally, fonts don't work when pulled from mammoth server.
+$local: true;
+
+$king: 'kingcool', sans-serif;
+@if $local {
+    $king: 'kingcool-local', sans-serif;
+}
+$sans: sans-serif;
+$white: #fff;
+$black: #000;
+$blue: #498ba1;
+$blueHover: #3a6f81;
+$green: #639122;
+$red: #901a04;
+$gray: #737171;
+$winterBkgBlue: #5e879c;
+
+$bodyWidth: 1006px;
